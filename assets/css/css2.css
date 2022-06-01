@@ -1,0 +1,57 @@
+body{
+	background:3fff;
+}
+
+
+.card{
+	background: #ecedef;
+	float: left;
+	position:absolute;
+	padding:1em;
+	font-size: 15px;
+	margin:auto;
+	width:35%;
+	border: 5px solid #ffff00;
+	padding:10px;
+	left: 35%;
+	top: 20%;
+	
+}
+
+h1 {
+  font-size: 1.7em;
+  margin-top: 0;
+  span {
+    font-weight: bolder;
+  }
+}
+.title, .name, .seat, .time {
+  text-transform: uppercase;
+  font-weight: normal;
+  h2 {
+    font-size: .9em;
+    color: #525252;
+    margin: 0;
+   }
+  span {
+    font-size: .7em;
+    color: #a2aeae;
+  }
+}
+
+.title {
+  margin: 2em 0 0 0;
+}
+
+.name, .seat {
+  margin: .7em 0 0 0;
+  font-family: arial;
+}
+
+.time {
+  margin: .7em 0 0 1em;
+}
+
+.seat, .time {
+  float:left;
+}
